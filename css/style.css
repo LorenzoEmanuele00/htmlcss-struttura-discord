@@ -119,3 +119,34 @@ nav {
     width: calc(50% / 4);
     border: 2px dashed white;
 }
+
+.foothr {
+    border: 1px solid white;
+}
+
+footer {
+    background-color: black;
+    padding-top: 1rem;
+}
+
+.flex-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    background-color: aqua;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem 0 1rem 0;
+}
+
+button {
+    background-color: rgb(215, 111, 111);
+    border: 1px dashed black;
+}
+
+div > div {
+    background-color: rgb(215, 111, 111);
+    border: 1px dashed black;
+}
