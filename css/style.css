@@ -8,3 +8,36 @@
 img {
     max-width: 100%;
 }
+
+.flex{
+    display: flex;
+    background-color: rgb(186, 255, 255);
+    justify-content: center;
+}
+
+nav {
+    padding: 10px 0 10px 0;
+}
+
+.left{
+    width: 15%;
+    text-align: left;
+}
+
+.right {
+    width: 15%;
+    text-align: right;
+}
+
+.links {
+    width: 30%;
+    text-align: center;
+}
+
+.right,
+.left,
+.links {
+    border: 2px dashed black;
+    background-color: rgb(255, 207, 16);
+    padding: 5px;
+}
