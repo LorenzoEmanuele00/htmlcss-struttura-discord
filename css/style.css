@@ -9,19 +9,15 @@ img {
     max-width: 100%;
 }
 
-/* flex display common */
-.flex {
+/* flex property */
+.flex-nav{ 
     display: flex;
-}
-
-/* nav-flex */
-.nav-flex{ 
     justify-content: center;
 }
 
-nav {
-    padding: .7rem 0 .7rem 0;
+nav { 
     background-color: rgb(186, 255, 255);
+    padding: .7rem 0 .7rem 0;
 }
 
 .left{
@@ -42,8 +38,8 @@ nav {
 .right,
 .left,
 .links {
-    border: 2px dashed black;
     background-color: rgb(255, 207, 16);
+    border: 2px dashed black;
     padding: 5px;
 }
 
@@ -53,13 +49,49 @@ nav {
 }
 
 .front {
+    background-color: plum;
     width: 50%;
     min-height: 400px;
     margin: 0 auto;
-    background-color: plum;
     border: 2px dashed black ;
 }
 
 .fronthr {
     border: 2px solid rgb(192, 246, 246);
+}
+
+/* flex property */
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+main > div{
+    padding: 2rem 0 2rem 0;
+}
+
+.even{
+    background-color: lightslategray;
+}
+
+.big{
+    background-color: rgb(0, 110, 255);
+    min-height: 500px;
+    width: 40%;
+    border: 2px dashed black;
+}
+
+.small {
+    background-color: rosybrown;
+    min-height: 500px;
+    width: 30%;
+    border: 2px dashed black;
+}
+
+.extrabig {
+    background-color: green;
+    border: 2px dashed black;
+    min-height: 500px;
+    width: 70%;
+    margin: 0 auto;
 }
